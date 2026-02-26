@@ -17,7 +17,7 @@ Além disso, o projeto proporcionou maior aprofundamento nos estudos de HTML e C
 - CSS3
 - Bootstrap
 - Git
-
+- Alura
 
 ### Autor
 [Luana Bueno](www.linkedin.com/in/luana-taina-87b745314)
