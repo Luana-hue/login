@@ -81,12 +81,12 @@
             <h1 class="h3 mb-3 fw-normal">Por favor, entre!</h1>
 
             <div class="form-floating">
-                <input type="email" class="form-control" id="floatingInput" placeholder="nome@exemplo.com">
+                <input type="email" class="form-control" id="loginEmail" placeholder="nome@exemplo.com">
                 <label for="floatingInput">Endereço de e-mail</label>
             </div>
             
             <div class="form-floating">
-                <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+                <input type="password" class="form-control" id="loginSenha" placeholder="Senha">
                 <label for="floatingPassword">Senha</label>
             </div>
 
@@ -96,12 +96,13 @@
                 </label>
             </div>
 
-            <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+            <button class="w-100 btn btn-lg btn-primary" type="button" onclick="acessar()">Entrar</button>
             <p class="mt-5 mb-3 text-muted">&copy; 2026</p>
         </form>
     </main>
 
     <a href="faq.html" class="faq-icon" title="Dúvidas Frequentes">?</a>
 
+    <script src="main.js"></script>
 </body>
 </html>
